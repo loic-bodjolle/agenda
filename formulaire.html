@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+   
+
+    <link rel="stylesheet" href="formulaire.css">
+  </head>
+
+
+  <Header class="header">          
+    <img class="logoagendatop" src="../Agenda/agenda/img/KEY0.CC-My-Neighbor-Totoro.png" height="150" width="150"  >
+
+      <h1> MON AGENDA </h1>
+  </Header>
+
+
+
+  <body>
+    
+    <form action="app-1.html" method="post"class="form div">
+
+        <div class="form div">
+            <label for="name">Agenda:</label>
+            <input class="labelnom" type="text" id="name" name="user_name">
+            
+        </div>
+
+
+        <p>Matière:</p>
+
+        <div class="inputradiomarge">
+        <div>
+          <input type="radio" name="drone" value="Cooworking"
+                 checked>
+          <label for="huey">Cooworking</label>
+        </div>
+        
+        <div>
+          <input type="radio" name="drone" value="Français">
+          <label for="dewey">Français</label>
+        </div>
+        
+        <div>
+          <input type="radio" name="drone" value="Anglais">
+          <label for="louie">Anglais</label>
+        </div>
+      </div>
+
+      <div>
+      <label for="appt">Tranche horraire:</label>
+
+      <input type="time" id="appt" name="appt"
+       min="09:00" max="18:00" required>
+      </div>
+
+      <div>
+        <label for="msg">Description:</label>
+        <textarea id="msg" name="user_message"></textarea>
+       
+    </div>
+
+
+
+
+        <div class="validerbutton">
+        <input type="submit" value="valider" >
+        </div>
+    
+    </form>
+
+
+
+
+  </body>
+</html>
